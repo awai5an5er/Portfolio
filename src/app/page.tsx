@@ -64,7 +64,7 @@ export default function Home() {
               <div className="text-sm uppercase tracking-[0.2em] text-slate-400">
                 {item.description}
               </div>
-              <div className="mt-2 text-3xl font-semibold text-white">{item.title}</div>
+              <div className="mt-2 text-2xl md:text-3xl font-semibold text-white">{item.title}</div>
             </div>
           ))}
         </div>
