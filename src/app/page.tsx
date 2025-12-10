@@ -64,7 +64,7 @@ export default function Home() {
               <div className="text-sm uppercase tracking-[0.2em] text-slate-400">
                 {item.description}
               </div>
-              <div className="mt-2 text-2xl md:text-3xl font-semibold text-white">{item.title}</div>
+              <div className="mt-2 text-2xl font-semibold text-white">{item.title}</div>
             </div>
           ))}
         </div>
@@ -113,7 +113,7 @@ export default function Home() {
 
       <section className="glass rounded-3xl p-6 text-center sm:p-8">
         <p className="text-sm uppercase tracking-[0.2em] text-slate-400">Let&apos;s talk</p>
-        <h3 className="mt-2 text-2xl font-semibold text-white">Available for select projects</h3>
+        <h3 className="mt-2 text-2xl font-semibold text-white">Available for projects</h3>
         <p className="mt-3 text-slate-300">
           Tell me about your goals and we&apos;ll shape a roadmap together.
         </p>
