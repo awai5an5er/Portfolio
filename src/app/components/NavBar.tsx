@@ -13,7 +13,7 @@ export function NavBar() {
   const pathname = usePathname();
 
   return (
-    <nav className="flex flex-wrap items-center justify-center gap-2 text-sm text-slate-200">
+    <nav className="flex flex-wrap items-center justify-start gap-2 text-sm text-slate-200">
       {links.map((link) => {
         const active = pathname === link.href;
         return (

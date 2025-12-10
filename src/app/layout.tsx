@@ -36,7 +36,7 @@ export default function RootLayout({
           <div className="relative mx-auto flex min-h-screen max-w-6xl flex-col px-6 pb-12 pt-6">
             <header className="mb-10">
               <div className="flex flex-col gap-4 rounded-2xl border border-white/5 bg-white/5 px-4 py-3 glass sm:flex-row sm:items-center sm:justify-between">
-                <Link href="/" className="flex items-center justify-center gap-4 font-semibold">
+                <Link href="/" className="flex items-center justify-start gap-4 font-semibold">
                   {/* <span className="h-8 w-8 rounded-lg bg-linear-to-br from-sky-400 to-violet-500" /> */}
                   <img src="/me.png" alt="Awais Anser" className="h-10 w-10 rounded-full" />
                   <div className="leading-tight">
