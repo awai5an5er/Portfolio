@@ -1,3 +1,5 @@
+import Links from "../components/Links";
+
 const channels = [
   {
     label: "Email",
@@ -43,7 +45,7 @@ export default function ContactPage() {
               Email directly
             </a>
           </div>
-          <div className="space-y-3">
+          <div className="space-y-3 ">
             {channels.map((channel) => (
               <a
                 key={channel.label}
@@ -59,7 +61,9 @@ export default function ContactPage() {
                 <span className="text-sky-200">→</span>
               </a>
             ))}
+            <Links />
           </div>
+          
         </div>
       </section>
     </div>

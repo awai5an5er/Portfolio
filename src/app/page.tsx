@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Links from "./components/Links";
 
 const highlights = [
   { title: "3+ years", description: "Designing & building web products" },
@@ -132,6 +133,7 @@ export default function Home() {
           </a>
         </div>
       </section>
+      <Links />
     </div>
   );
 }
