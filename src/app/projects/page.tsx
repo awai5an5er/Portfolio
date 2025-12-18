@@ -1,14 +1,22 @@
 const projects = [
   {
-    title: "Speed Full Auto ",
-    blurb: "Automobile Services Center Based in Dubai, UAE.",
-    link: "https://speedfullauto.com",
-    tags: ["Next.js", "Tailwind"],
+    title: "To Do List App",
+    summary: "A simple to do list app built with React.js and Tailwind CSS.",
+    link: "https://7odo-task-list.netlify.app/",
+    
+    tags: ["React.js", "Tailwind CSS", "JavaScript"],
+  },
+  
+  {
+    title: "Design System",
+    summary: "Token-driven library, accessibility baked in, backed by Storybook.",
+    tags: ["Design Ops", "Storybook", "Accessibility"],
   },
   {
-    title: "HK Energy Solutions",
-    blurb: "Providing Safe and Secure Energy Solutions to the UK.",
-    tags: ["Next.js", "Tailwind"],
+    title: "Onboarding Flow",
+    summary: "Guided setup with progressive disclosure and contextual help.",
+    impact: "Reduced time-to-value by 32% and lowered support tickets.",
+    tags: ["Product design", "Experimentation", "UX writing"],
   },
 ];
 
