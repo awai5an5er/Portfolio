@@ -61,7 +61,7 @@ export default function AboutPage() {
               role: "Web Developer Internee",
               place: "Ecom Tycoon",
               time: "2025 — Present",
-              body: "Contributed to the development of websites that allowed users to manage their online presence and marketing efforts.",
+              body: "Contributed to development of multiple websites that allowed users to manage their online presence and marketing efforts.",
             },
           ].map((item) => (
             <div
