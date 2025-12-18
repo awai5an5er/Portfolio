@@ -58,7 +58,7 @@ export default function ContactPage() {
                   <div className="text-sm text-slate-400">{channel.label}</div>
                   <div className="text-lg font-semibold text-white">{channel.value}</div>
                 </div>
-                <span className="text-sky-200">→</span>
+                <span className="hidden md:block text-sky-200">→</span>
               </a>
             ))}
             <Links />
