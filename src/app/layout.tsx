@@ -35,7 +35,7 @@ export default function RootLayout({
           <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(96,165,250,0.16),transparent_28%),radial-gradient(circle_at_80%_0%,rgba(168,85,247,0.14),transparent_22%),radial-gradient(circle_at_50%_60%,rgba(34,197,94,0.1),transparent_28%)]" />
           <div className="relative mx-auto flex min-h-screen max-w-6xl flex-col px-6 pb-12 pt-6">
            <header className="mb-10 sticky top-0 z-50">
-  <div className="flex flex-col gap-4 rounded-2xl border border-white/5 bg-white/5 px-4 py-3 glass sm:flex-row sm:items-center sm:justify-between">
+  <div className="flex flex-row justify-between gap-4 rounded-2xl border border-white/5 bg-white/5 px-4 py-3 glass sm:flex-row sm:items-center sm:justify-between">
     <Link href="/" className="flex items-center justify-start gap-4 font-semibold">
       <img
         src="/me.png"
