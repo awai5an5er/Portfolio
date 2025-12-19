@@ -1,22 +1,14 @@
 const projects = [
   {
-    title: "To Do List App",
-    summary: "A simple to do list app built with React.js and Tailwind CSS.",
-    link: "https://7odo-task-list.netlify.app/",
-    
-    tags: ["React.js", "Tailwind CSS", "JavaScript"],
-  },
-  
-  {
-    title: "Design System",
-    summary: "Token-driven library, accessibility baked in, backed by Storybook.",
-    tags: ["Design Ops", "Storybook", "Accessibility"],
+    title: "Speed Full Auto ",
+    summary: "Automobile Services Center Based in Dubai, UAE.",
+    link: "https://speedfullauto.com",
+    tags: ["Next.js", "Tailwind"],
   },
   {
-    title: "Onboarding Flow",
-    summary: "Guided setup with progressive disclosure and contextual help.",
-    impact: "Reduced time-to-value by 32% and lowered support tickets.",
-    tags: ["Product design", "Experimentation", "UX writing"],
+    title: "HK Energy Solutions",
+    summary: "Providing Safe and Secure Energy Solutions to the UK.",
+    tags: ["Next.js", "Tailwind"],
   },
 ];
 
@@ -41,8 +33,8 @@ export default function ProjectsPage() {
                 <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-sky-300 hover:text-white hover:underline">Visit Website</a>
                 <p className="mt-2 text-slate-300">{project.summary}</p>
               </div>
-              <span className="rounded-full bg-white/10 px-3 py-2 text-xs text-slate-200">
-                Case study
+              <span className="rounded-full bg-white/10 px-3 items-center justify-center text-center py-2 text-xs text-slate-200">
+                Real World Project
               </span>
             </div>
            
