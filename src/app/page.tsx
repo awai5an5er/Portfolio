@@ -9,7 +9,7 @@ const highlights = [
 
 const featured = [
   {
-    title: "Speed Full Auto ",
+    title: "Speed Full Autos ",
     blurb: "Automobile Services Center Based in Dubai, UAE.",
     link: "https://speedfullauto.com",
     tags: ["Next.js", "Tailwind"],
