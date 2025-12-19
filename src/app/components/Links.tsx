@@ -10,7 +10,7 @@ function Links() {
         {Logo:Twitter, href:"https://x.com/awais_anser_?s=21"},
     ]
   return (
-    <section className="flex gap-8 md:gap-15 items-center justify-center glass rounded-3xl p-6 text-center sm:p-8">
+    <section className="flex gap-10 md:gap-20 items-center justify-center glass rounded-3xl p-6 text-center sm:p-8">
          {Icons.map(({ Logo, href }, index) => (
         <Link
           key={index}

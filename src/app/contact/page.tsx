@@ -61,11 +61,12 @@ export default function ContactPage() {
                 <span className="hidden md:block text-sky-200">→</span>
               </a>
             ))}
-            <Links />
           </div>
+          
           
         </div>
       </section>
+      <Links />
     </div>
   );
 }
