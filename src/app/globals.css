@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 :root {
+  /* Dark theme (default) */
   --background: #05060a;
   --foreground: #e8ecf5;
   --muted: #9aa5b5;
@@ -8,6 +9,17 @@
   --stroke: rgba(255, 255, 255, 0.08);
   --accent: #60a5fa;
   --accent-2: #a855f7;
+}
+
+/* Light theme overrides */
+:root[data-theme="light"] {
+  --background: #f5f7ff;
+  --foreground: #020617;
+  --muted: #4b5563;
+  --card: rgba(15, 23, 42, 0.04);
+  --stroke: rgba(15, 23, 42, 0.16);
+  --accent: #2563eb;
+  --accent-2: #7c3aed;
 }
 
 @theme inline {
@@ -25,9 +37,50 @@ body {
   background: radial-gradient(circle at 20% 20%, rgba(96, 165, 250, 0.12), transparent 30%),
     radial-gradient(circle at 80% 0%, rgba(168, 85, 247, 0.12), transparent 25%),
     radial-gradient(circle at 50% 60%, rgba(34, 197, 94, 0.08), transparent 30%),
-    #05060a;
+    var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+}
+
+/* Slightly softer glow for light mode */
+html[data-theme="light"] body {
+  background: radial-gradient(circle at 20% 20%, rgba(59, 130, 246, 0.12), transparent 30%),
+    radial-gradient(circle at 80% 0%, rgba(147, 51, 234, 0.12), transparent 25%),
+    radial-gradient(circle at 50% 60%, rgba(16, 185, 129, 0.08), transparent 30%),
+    var(--background);
+}
+
+/* Stronger, darker borders for containers in light mode */
+html[data-theme="light"] .glass {
+  border-color: var(--stroke);
+}
+
+html[data-theme="light"] .border-white\/5 {
+  border-color: rgba(15, 23, 42, 0.16);
+}
+
+html[data-theme="light"] .border-white\/10 {
+  border-color: rgba(15, 23, 42, 0.2);
+}
+
+html[data-theme="light"] .border-white\/20 {
+  border-color: rgba(15, 23, 42, 0.28);
+}
+
+/* Darker hamburger icon lines in light mode */
+html[data-theme="light"] .hamburger-line {
+  background-color: var(--foreground);
+}
+
+/* Make text darker in light mode, even for explicit "light" text utilities */
+html[data-theme="light"] .text-white,
+html[data-theme="light"] .text-slate-200,
+html[data-theme="light"] .text-slate-300,
+html[data-theme="light"] .text-slate-400,
+html[data-theme="light"] .text-slate-200,
+html[data-theme="light"] .text-sky-200,
+html[data-theme="light"] .text-sky-300 {
+  color: var(--foreground);
 }
 
 a {

@@ -60,9 +60,9 @@ export function NavBar() {
         className="sm:hidden ml-2 flex flex-col gap-1.5"
         aria-label="Toggle menu"
       >
-        <span className="h-0.5 w-6 bg-white" />
-        <span className="h-0.5 w-5 bg-white" />
-        <span className="h-0.5 w-4 bg-white" />
+        <span className="hamburger-line h-0.5 w-6 bg-white" />
+        <span className="hamburger-line h-0.5 w-5 bg-white" />
+        <span className="hamburger-line h-0.5 w-4 bg-white" />
       </button>
 
       {/* Mobile Menu */}
