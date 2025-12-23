@@ -106,3 +106,32 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1rem;
 }
+
+/* Scrollbar styling (adapts to theme) */
+::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+html[data-theme="light"] ::-webkit-scrollbar-thumb {
+  background-color: rgba(15, 23, 42, 0.3);
+}
+
+html[data-theme="light"] ::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(15, 23, 42, 0.45);
+}
+
