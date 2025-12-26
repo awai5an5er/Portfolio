@@ -45,8 +45,9 @@ export default function RootLayout({
                   </div>
                 </Link>
                 <div className="flex items-center gap-3">
+                <ThemeToggle />
                   <NavBar />
-                  <ThemeToggle />
+                  
                 </div>
               </div>
             </header>
