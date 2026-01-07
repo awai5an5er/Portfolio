@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio | Awais Anser",
+  title: "Awais Anser",
   description:
     "A modern multi-page portfolio to showcase skills, experience, and projects.",
 };
@@ -37,17 +37,23 @@ export default function RootLayout({
           <div className="relative mx-auto flex min-h-screen max-w-6xl flex-col px-6 pb-12 pt-6">
             <header className="sticky top-0 z-50 mb-10">
               <div className="flex flex-row justify-between gap-4 rounded-2xl border border-white/5 bg-white/5 px-4 py-3 glass sm:flex-row sm:items-center sm:justify-between">
-                <Link href="/" className="flex items-center justify-start gap-4 font-semibold">
-                  <img src="/me.png" alt="Awais Anser" className="h-10 w-10 rounded-full" />
+                <Link
+                  href="/"
+                  className="flex items-center justify-start gap-4 font-semibold"
+                >
+                  <img
+                    src="/me.png"
+                    alt="Awais Anser"
+                    className="h-10 w-10 rounded-full"
+                  />
                   <div className="leading-tight">
                     <div className="text-sm text-slate-300">Web Developer</div>
                     <div className="text-base text-white">Awais Anser</div>
                   </div>
                 </Link>
                 <div className="flex items-center gap-3">
-                <ThemeToggle />
+                  <ThemeToggle />
                   <NavBar />
-                  
                 </div>
               </div>
             </header>
