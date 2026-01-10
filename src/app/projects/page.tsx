@@ -15,18 +15,6 @@ const featured = [
     blurb: "An online store for vaping products and accessories.",
     tags: ["Next.js", "Tailwind", "MongoDB", "Express.js", "Node.js"],
   },
-  {
-    title: "Fi-Bank",
-    blurb: "An online banking platform for financial services.",
-    link: "https://fi-bank-project.netlify.app",
-    tags: ["React.js", "Tailwind", "Local Storage"],
-  },
-  {
-    title: "25 Software Solutions",
-    blurb: "IT Services and Solutions Provider Based in Pakistan.",
-    link: "https://pachis25.netlify.app",
-    tags: ["React.js", "Tailwind"],
-  },
 ];
 export default function ProjectsPage() {
   return (
