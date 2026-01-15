@@ -63,6 +63,13 @@ export default function Home() {
               >
                 Book a Call
               </Link>
+              <a
+                href="/cv.pdf"
+                download
+                className="w-full rounded-full border border-white/20 px-5 py-3 text-center text-sm font-semibold text-white transition hover:border-white/40 hover:bg-white/10 sm:w-auto"
+              >
+                Download CV
+              </a>
               <Link
                 href="/about"
                 className="w-full rounded-full border border-white/10 px-5 py-3 text-center text-sm font-semibold text-slate-200 transition hover:border-white/30 hover:bg-white/5 sm:w-auto"
