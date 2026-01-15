@@ -1,4 +1,3 @@
-import { Scroll } from "lucide-react";
 import { ScrollFade } from "../components/ScrollFade";
 
 const featured = [
