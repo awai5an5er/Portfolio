@@ -15,12 +15,6 @@ const featured = [
     detail: "Real World Project",
   },
   {
-    title: "Online Vape Store",
-    blurb: "An online store for vaping products and accessories.",
-    tags: ["Next.js", "Tailwind", "MongoDB", "Express.js", "Node.js"],
-    detail: "Real World Project",
-  },
-  {
     title: "FiBank",
     blurb: "A modern banking application with seamless user experience.",
     link: "https://fi-bank-project.netlify.app",

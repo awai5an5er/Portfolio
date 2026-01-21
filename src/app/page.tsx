@@ -20,11 +20,6 @@ const featured = [
     blurb: "Providing Safe and Secure Energy Solutions to the UK.",
     tags: ["Next.js", "Tailwind"],
   },
-  {
-    title: "Online Vape Store",
-    blurb: "An online store for vaping products and accessories.",
-    tags: ["Next.js", "Tailwind", "MongoDB", "Express.js", "Node.js"],
-  },
 ];
 
 export default function Home() {
