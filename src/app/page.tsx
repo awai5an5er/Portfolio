@@ -14,11 +14,14 @@ const featured = [
     blurb: "Automobile Services Center Based in Dubai, UAE.",
     link: "https://speedfullauto.com",
     tags: ["Next.js", "Tailwind"],
+    detail: "Real World Project",
   },
   {
     title: "HK Energy Solutions",
     blurb: "Providing Safe and Secure Energy Solutions to the UK.",
+    link: "https://hk-energy-solutions.vercel.app",
     tags: ["Next.js", "Tailwind"],
+    detail: "Personal Project",
   },
 ];
 
@@ -117,7 +120,7 @@ export default function Home() {
                     {item.title}
                   </h3>
                   <span className="rounded-full bg-white/10 px-4 py-2 text-xs text-slate-200">
-                    Real World Project
+                    {item.detail}
                   </span>
                 </div>
                 <p className="mt-3 text-slate-300">{item.blurb}</p>
