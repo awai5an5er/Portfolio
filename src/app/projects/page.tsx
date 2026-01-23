@@ -1,3 +1,4 @@
+import { link } from "fs";
 import { ScrollFade } from "../components/ScrollFade";
 
 const featured = [
@@ -11,8 +12,9 @@ const featured = [
   {
     title: "HK Energy Solutions",
     blurb: "Providing Safe and Secure Energy Solutions to the UK.",
+    link: "https://hk-energy-solutions.vercel.app",
     tags: ["Next.js", "Tailwind"],
-    detail: "Real World Project",
+    detail: "Personal Project",
   },
   {
     title: "FiBank",
