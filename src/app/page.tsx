@@ -3,7 +3,7 @@ import Links from "./components/Links";
 import { ScrollFade } from "./components/ScrollFade";
 
 const highlights = [
-  { title: "3+ years", description: "Designing & building web products" },
+  { title: "1+ years", description: "Designing & building web products" },
   { title: "End-to-end", description: "Strategy, UX, frontend, delivery" },
   { title: "Remote ready", description: "Across timezones and teams" },
 ];
