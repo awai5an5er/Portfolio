@@ -122,6 +122,50 @@ export default function AboutPage() {
           </div>
         </section>
       </ScrollFade>
+
+      <ScrollFade>
+        <section className="glass rounded-3xl p-6 sm:p-8">
+          <p className="text-sm uppercase tracking-[0.2em] text-slate-400">
+            Certification
+          </p>
+          <div className="mt-5 grid gap-4 md:grid-cols-2">
+            <div className="rounded-2xl border border-white/5 bg-white/5 p-4">
+              <h3 className="text-lg font-semibold text-white">
+                Experience Letter
+              </h3>
+              <p className="mt-2 text-slate-300">
+                My experience letter from Ecom Tycoon, confirming my role and
+                contributions during the internship.
+              </p>
+              <a
+                href="/Experience%20Letter.pdf"
+                className="mt-4 inline-flex items-center justify-center rounded-full border border-white/20 px-4 py-2 text-sm font-semibold text-white transition hover:border-white/40 hover:bg-white/10"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Experience Letter
+              </a>
+            </div>
+            <div className="rounded-2xl border border-white/5 bg-white/5 p-4">
+              <h3 className="text-lg font-semibold text-white">
+                Internship Certificate
+              </h3>
+              <p className="mt-2 text-slate-300">
+                My internship completion certificate, recognizing my work and
+                achievements during the internship.
+              </p>
+              <a
+                href="/Internship%20Certificate.pdf"
+                className="mt-4 inline-flex items-center justify-center rounded-full border border-white/20 px-4 py-2 text-sm font-semibold text-white transition hover:border-white/40 hover:bg-white/10"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Internship Certificate
+              </a>
+            </div>
+          </div>
+        </section>
+      </ScrollFade>
     </div>
   );
 }
