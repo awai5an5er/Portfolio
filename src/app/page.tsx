@@ -66,7 +66,7 @@ export default function Home() {
                 download
                 className="w-full rounded-full border border-white/20 px-5 py-3 text-center text-sm font-semibold text-white transition hover:border-white/40 hover:bg-white/10 sm:w-auto"
               >
-                Download CV
+                View CV
               </a>
               <Link
                 href="/about"
