@@ -97,7 +97,7 @@ export default function AboutPage() {
           <div className="mt-5 space-y-5">
             {[
               {
-                role: "Web Developer Internee",
+                role: "Web Development Intern",
                 place: "Ecom Tycoon",
                 time: "Oct 2025 — Jan 2026",
                 body: "Contributed to development of multiple websites that allowed users to manage their online presence and marketing efforts.",
