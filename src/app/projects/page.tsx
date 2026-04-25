@@ -23,6 +23,13 @@ const featured = [
     tags: ["React.js", "Tailwind", "Local Storage"],
     detail: "Personal Project",
   },
+  {
+    title: "Busmate",
+    blurb: "A bus transit system.",
+    link: "https://busmate-project-psi.vercel.app",
+    tags: ["Next.js", "MongoDB", "Leaflet", "Tailwind"],
+    detail: "Final Year Project",
+  },
 ];
 export default function ProjectsPage() {
   return (
