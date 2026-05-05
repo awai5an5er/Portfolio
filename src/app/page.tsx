@@ -17,11 +17,11 @@ const featured = [
     detail: "Real World Project",
   },
   {
-    title: "HK Energy Solutions",
-    blurb: "Providing Safe and Secure Energy Solutions to the UK.",
-    link: "https://hk-energy-solutions.vercel.app",
-    tags: ["Next.js", "Tailwind"],
-    detail: "Personal Project",
+    title: "Busmate",
+    blurb: "A bus transit app that provides real-time bus tracking and route planning for commuters.",
+    link: "https://busmate-project-psi.vercel.app",
+    tags: ["Next.js", "Tailwind", "MongoDB","Leaflet"],
+    detail: "Final Year Project",
   },
 ];
 

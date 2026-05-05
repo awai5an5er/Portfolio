@@ -50,7 +50,7 @@ export default function ProjectsPage() {
       </ScrollFade>
 
       <ScrollFade>
-        <div className="mt-6 grid-auto">
+        <div className="mt-6 flex flex-wrap gap-6">
           {featured.map((item) => (
             <div
               key={item.title}
