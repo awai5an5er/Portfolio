@@ -17,19 +17,21 @@ const featured = [
     detail: "Personal Project",
   },
   {
+    title: "Busmate",
+    blurb: "A bus transit app that provides real-time bus tracking and route planning for commuters.",
+    link: "https://busmate-project-psi.vercel.app",
+    tags: ["Next.js", "MongoDB", "Leaflet", "Tailwind"],
+    detail: "Final Year Project",
+  },
+  
+  {
     title: "FiBank",
     blurb: "A modern banking application with seamless user experience.",
     link: "https://fi-bank-project.netlify.app",
     tags: ["React.js", "Tailwind", "Local Storage"],
     detail: "Personal Project",
   },
-  {
-    title: "Busmate",
-    blurb: "A bus transit system.",
-    link: "https://busmate-project-psi.vercel.app",
-    tags: ["Next.js", "MongoDB", "Leaflet", "Tailwind"],
-    detail: "Final Year Project",
-  },
+  
 ];
 export default function ProjectsPage() {
   return (
