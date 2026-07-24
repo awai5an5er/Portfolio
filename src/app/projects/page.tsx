@@ -29,7 +29,7 @@ const featured = [
     blurb: "A modern banking application with seamless user experience.",
     link: "https://fi-bank-project.netlify.app",
     tags: ["React.js", "Tailwind", "Local Storage"],
-    detail: "Personal Project",
+    detail: "Practice Project",
   },
   
 ];
