@@ -163,6 +163,23 @@ export default function AboutPage() {
                 View Internship Certificate
               </a>
             </div>
+            <div className="rounded-2xl border border-white/5 bg-white/5 p-4">
+              <h3 className="text-lg font-semibold text-white">
+                Data Labelling Simulation Certificate
+              </h3>
+              <p className="mt-2 text-slate-300">
+                My data labelling simulation certificate, recognizing my work and
+                achievements during the simulation.
+              </p>
+              <a
+                href="/Data%20Labelling%20Sim%20Certificate.pdf"
+                className="mt-4 inline-flex items-center justify-center rounded-full border border-white/20 px-4 py-2 text-sm font-semibold text-white transition hover:border-white/40 hover:bg-white/10"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Data Labelling Certificate
+              </a>
+            </div>
           </div>
         </section>
       </ScrollFade>
