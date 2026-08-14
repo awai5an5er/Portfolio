@@ -26,6 +26,31 @@ const skills = [
   "Testing & QA",
 ];
 
+const education = [
+  {
+    institution: "Lahore Garrison University",
+    degree: "Bachelor of Science - BS, Computer Science",
+    period: "Nov 2022 — Jun 2026",
+    grade: "3.15 CGPA",
+    details: "MySQL, Web Development, +9 skills",
+  },
+   {
+    institution: "Punjab Group Of Colleges",
+    degree: "FSC, Pre-Medicine/Pre-Medical Studies",
+    period: "Oct 2020 — May 2022",
+    grade: "",
+    details: "",
+  },
+  {
+    institution: "Army Public School - (APSACS)",
+    degree: "Matriculation",
+    period: "May 2006 — Mar 2020",
+    grade: "Grade: A+",
+    details: "Activities and societies: Football",
+  },
+ 
+];
+
 export default function AboutPage() {
   return (
     <div className="space-y-10">
@@ -88,7 +113,43 @@ export default function AboutPage() {
           </div>
         </section>
       </ScrollFade>
-
+<ScrollFade>
+        <section className="glass rounded-3xl p-6 sm:p-8">
+          <p className="text-sm uppercase tracking-[0.2em] text-slate-400">
+            Education
+          </p>
+          <div className="mt-5 space-y-5">
+            {education.map((item) => (
+              <div
+                key={item.institution}
+                className="rounded-2xl border border-white/5 bg-white/5 p-4"
+              >
+                <div className="flex flex-col gap-2 md:flex-row md:items-start md:justify-between">
+                  <div className="flex-1">
+                    <h3 className="text-lg font-semibold text-white">
+                      {item.institution}
+                    </h3>
+                    <p className="mt-1 text-slate-300">{item.degree}</p>
+                    {item.details && (
+                      <p className="mt-2 text-sm text-slate-400">{item.details}</p>
+                    )}
+                  </div>
+                  <div className="flex flex-col gap-2 text-right md:text-left">
+                    <span className="pill rounded-full px-3 py-2 text-xs uppercase tracking-wide">
+                      {item.period}
+                    </span>
+                    {item.grade && (
+                      <span className="text-sm font-medium text-slate-300">
+                        {item.grade}
+                      </span>
+                    )}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      </ScrollFade>
       <ScrollFade>
         <section className="glass rounded-3xl p-6 sm:p-8">
           <p className="text-sm uppercase tracking-[0.2em] text-slate-400">
@@ -122,6 +183,8 @@ export default function AboutPage() {
           </div>
         </section>
       </ScrollFade>
+
+      
 
       <ScrollFade>
         <section className="glass rounded-3xl p-6 sm:p-8">
@@ -178,6 +241,23 @@ export default function AboutPage() {
                 rel="noopener noreferrer"
               >
                 View Data Labelling Certificate
+              </a>
+            </div>
+            <div className="rounded-2xl border border-white/5 bg-white/5 p-4">
+              <h3 className="text-lg font-semibold text-white">
+                Data Science Simulation Certificate
+              </h3>
+              <p className="mt-2 text-slate-300">
+                My data science simulation certificate, recognizing my work and
+                achievements during the simulation.
+              </p>
+              <a
+                href="/Data%20Science%20Job%20Certificate.pdf"
+                className="mt-4 inline-flex items-center justify-center rounded-full border border-white/20 px-4 py-2 text-sm font-semibold text-white transition hover:border-white/40 hover:bg-white/10"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Data Science Simulation Certificate
               </a>
             </div>
           </div>
